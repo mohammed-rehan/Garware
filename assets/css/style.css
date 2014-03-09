@@ -6,6 +6,11 @@
     version:0.1
 */
 /* elements */
+body{font-size:20px;}
+#Theme{
+    background:#fff;
+}
+.ui-btn{font-size:18px;}
 #Theme{
     background:#fff;
 }

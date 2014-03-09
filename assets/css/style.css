@@ -1,0 +1,190 @@
+/* theme create by 
+    Mirza shareque
+    shareque@outlook.com
+    create date:08-03-14
+    last update:
+    version:0.1
+*/
+/* elements */
+#Theme{
+    background:#fff;
+}
+
+#Theme .btn-primary {
+    color: #ffffff;
+    background-color: #2980b9;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #164666;
+    background-image: linear-gradient(to bottom, #409AD5 0%, #2980B9 100%);
+    border-left-color: #20638f;
+    border-right-color: #20638f;
+    border-top-color: #20638f;
+}
+
+    #Theme .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+        color: #ffffff;
+        background-color: #226998;
+        border-color: #15405d;
+    }
+
+    #Theme .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+        background-image: none;
+    }
+
+    #Theme .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+        border-color: #20638f;
+    }
+
+#Theme .btn-warning {
+    color: #ffffff;
+    background-color: #f0ad4e;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #df8a13;
+    background-image: linear-gradient(to bottom, #f4c37d 0%, #f0ad4e 100%);
+    border-left-color: #eea236;
+    border-right-color: #eea236;
+    border-top-color: #eea236;
+}
+
+    #Theme .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+        color: #ffffff;
+        background-color: #ed9c28;
+        border-color: #d58512;
+    }
+
+    #Theme .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+        background-image: none;
+    }
+
+    #Theme .btn-warning.disabled, .btn-warning[disabled], fieldset[disabled] .btn-warning, .btn-warning.disabled:hover, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning:hover, .btn-warning.disabled:focus, .btn-warning[disabled]:focus, fieldset[disabled] .btn-warning:focus, .btn-warning.disabled:active, .btn-warning[disabled]:active, fieldset[disabled] .btn-warning:active, .btn-warning.disabled.active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning.active {
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+
+#Theme .btn-danger {
+    color: #ffffff;
+    background-color: #e53e32;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #b42117;
+    background-image: linear-gradient(to bottom, #eb695f 0%, #e53e32 100%);
+    border-left-color: #e12a1d;
+    border-right-color: #e12a1d;
+    border-top-color: #e12a1d;
+}
+
+    #Theme .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+        color: #ffffff;
+        background-color: #d3271b;
+        border-color: #ab2016;
+    }
+
+    #Theme .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+        background-image: none;
+    }
+
+    #Theme .btn-danger.disabled, .btn-danger[disabled], fieldset[disabled] .btn-danger, .btn-danger.disabled:hover, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger:hover, .btn-danger.disabled:focus, .btn-danger[disabled]:focus, fieldset[disabled] .btn-danger:focus, .btn-danger.disabled:active, .btn-danger[disabled]:active, fieldset[disabled] .btn-danger:active, .btn-danger.disabled.active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger.active {
+        background-color: #e53e32;
+        border-color: #e12a1d;
+    }
+
+#Theme .btn-success {
+    color: #ffffff;
+    background-color: #7ea568;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #597948;
+    background-image: linear-gradient(to bottom, #99b888 0%, #7ea568 100%);
+    border-left-color: #71995b;
+    border-right-color: #71995b;
+    border-top-color: #71995b;
+}
+
+    #Theme .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+        color: #ffffff;
+        background-color: #6a8f55;
+        border-color: #557244;
+    }
+
+    #Theme .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+        background-image: none;
+    }
+
+    #Theme .btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success[disabled].active, fieldset[disabled] .btn-success.active {
+        background-color: #7ea568;
+        border-color: #71995b;
+    }
+
+#Theme .btn-info {
+    color: #ffffff;
+    background-color: #5bc0de;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #28a1c5;
+    background-image: linear-gradient(to bottom, #85d0e7 0%, #5bc0de 100%);
+    border-left-color: #46b8da;
+    border-right-color: #46b8da;
+    border-top-color: #46b8da;
+}
+
+    #Theme .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+        color: #ffffff;
+        background-color: #39b3d7;
+        border-color: #269abc;
+    }
+
+    #Theme .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+        background-image: none;
+    }
+
+    #Theme .btn-info.disabled, .btn-info[disabled], fieldset[disabled] .btn-info, .btn-info.disabled:hover, .btn-info[disabled]:hover, fieldset[disabled] .btn-info:hover, .btn-info.disabled:focus, .btn-info[disabled]:focus, fieldset[disabled] .btn-info:focus, .btn-info.disabled:active, .btn-info[disabled]:active, fieldset[disabled] .btn-info:active, .btn-info.disabled.active, .btn-info[disabled].active, fieldset[disabled] .btn-info.active {
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+
+
+/* login page */
+#LoginPage {
+}
+
+#company-logo {
+    height: 40px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #fff;
+}
+
+#Theme .ui-content {
+    background: #fff;
+}
+
+#LoginPage .ui-header, #LoginPage .ui-footer {
+    background: #393939;
+    text-align: center;
+    color: #999;
+    -webkit-text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+/* Welcome Page */
+#Dashboard .ui-footer {
+    height:50px;
+}

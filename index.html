@@ -4,19 +4,18 @@
     <title>Defect Tracking System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet" />
     <script type="text/javascript" charset="utf-8" src="phonegap-3.1.0.js"></script>
     <script src="assets/js/jquery.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- your scripts here -->
-   
     <script src="assets/js/jquery.mobile.min.js"></script>
     <script type="text/javascript">
         function sendSMS(machineName, defect, operatorName) {
-            //          var currDate = new Date();
-            //          var dateTime = currDate.getDate() + '/' + currDate.getMonth() + '/' + currDate.getFullYear() + ' ' + currDate.getHours() + ':' + currDate.getMinutes() + ':' + currDate.getSeconds();
-            // var url = "http://api.mvaayoo.com/mvaayooapi/MessageCompose?user=anees.hashmi@yahoo.com:kingarthur&senderID=TEST%20SMS&receipientno=8928821898,9421120402&msgtxt= Machine: " + machineName + ";Defect: " + defect + ";Operator:" + operatorName + ";Date:" + dateTime + "&state=2";
-            //$.getJSON(url);
+            var currDate = new Date();
+            var dateTime = currDate.getDate() + '/' + currDate.getMonth() + '/' + currDate.getFullYear() + ' ' + currDate.getHours() + ':' + currDate.getMinutes() + ':' + currDate.getSeconds();
+            var url = "http://api.mvaayoo.com/mvaayooapi/MessageCompose?user=anees.hashmi@yahoo.com:kingarthur&senderID=TEST%20SMS&receipientno=8928821898,9421120402&msgtxt= Machine: " + machineName + ";Defect: " + defect + ";Operator:" + operatorName + ";Date:" + dateTime + "&state=2";
+            $.getJSON(url);
         }
         var machineDate;
 
@@ -55,7 +54,6 @@
             return "" + integer;
         }
     </script>
-   
 </head>
 <body id="Theme">
     <!-- Login page -->
@@ -87,9 +85,9 @@
                 Defect Tracking System</h1>
         </div>
         <div role="main" class="ui-content">
-            <ul data-role="listview" data-inset="true" data-divider-theme="b">
+            <ul data-role="listview" data-inset="true" data-divider-theme="b" class="detail">
                 <li data-role="list-divider">Welcome, Amit Kharya</li>
-                <li>Machine Name:<span class="ui-li-count">MX2234</span></li>
+                <li>Machine Name<span class="ui-li-count">MX2234</span></li>
                 <li>Shift<span class="ui-li-count"> 1st</span></li>
             </ul>
             <a class="ui-shadow ui-btn ui-corner-all  btn-success btn-large"
@@ -115,7 +113,7 @@
         <div role="main" class="ui-content">
             <a class="ui-btn btn-teal ui-corner-all btn-large" href="#popupDialog" data-rel="popup"
                 data-position-to="window" data-transition="pop" onclick="sendSMS('MX2234','Black Spot','Amit Kharya');">
-                Black Spot <span class="ui-li-count">4</span></a> <a class="ui-btn btn-danger ui-corner-all btn-large"
+                Black Spot <span class="ui-li-count">2</span></a> <a class="ui-btn btn-danger ui-corner-all btn-large"
                     href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop"
                     onclick="sendSMS('MX2234','Flow Mark','Amit Kharya');">Flow Mark</a> <a class="ui-btn btn-danger ui-corner-all btn-large"
                         href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop"
@@ -127,7 +125,7 @@
                     onclick="sendSMS('MX2234','Scratch / Stretch','Amit Kharya');">Scratch / Stretch</a>
             <a class="ui-btn btn-warning ui-corner-all btn-large" href="#popupDialog" data-rel="popup"
                 data-position-to="window" data-transition="pop" onclick="sendSMS('MX2234','Warpage Line','Amit Kharya');">
-                Warpage Line <span class="ui-li-count">2</span></a> <a class="ui-btn btn-warning ui-corner-all btn-large"
+                Warpage Line <span class="ui-li-count">1</span></a> <a class="ui-btn btn-warning ui-corner-all btn-large"
                     href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop"
                     onclick="sendSMS('MX2234','Bubble','Amit Kharya');">Bubble</a>
             <div data-role="popup" id="popupDialog" data-dismissible="false" style="max-width: 400px;">
@@ -166,34 +164,31 @@
             
         </div>
         <div role="main" class="ui-content">
-            <div data-role="collapsibleset" data-inset="true" data-collapsed-icon="carat-r" data-expanded-icon="carat-d">
-                <div data-role="collapsible">
-                    <h3>
-                        Defect 1 <span class="ui-li-count">4</span></h3>
+            <div data-role="collapsibleset" data-inset="true" data-collapsed-icon="carat-r" data-expanded-icon="carat-d" class="defectList">
+                <div data-role="collapsible" >
+                    <h3 class="btn-teal">
+                        Black Spot <span class="ui-li-count">2</span></h3>
                     <ul data-role="listview" data-inset="false" data-count-theme="b">
-                        <li>Defect 1<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 2<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 3<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 4<span class="ui-li-count">1:20</span></li>
+                        <li><i class="fa fa-user"></i> Amit K. <i class="fa fa-clock-o"></i> 09/03/2014 12:13:25<span class="ui-li-count"><i class="fa fa-film"></i> 515.5 m</span></li>
+                          <li><i class="fa fa-user"></i> Amit K. <i class="fa fa-clock-o"></i> 09/03/2014 10:34:19<span class="ui-li-count"><i class="fa fa-film"></i> 364.9 m</span></li>
+                        
                     </ul>
                 </div>
                 <div data-role="collapsible">
                     <h3>
-                        Defect 2 <span class="ui-li-count">2</span></h3>
+                        Rust / Oil / Spray Mark <span class="ui-li-count">1</span></h3>
                     <ul data-role="listview" data-inset="false" data-count-theme="b">
-                        <li>Defect 1<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 2<span class="ui-li-count">1:20</span></li>
-                    </ul>
+                        <li><i class="fa fa-user"></i> Amit K. <i class="fa fa-clock-o"></i> 09/03/2014 13:23:02<span class="ui-li-count"><i class="fa fa-film"></i> 736.0 m</span></li>
+                        
+                  </ul>
                 </div>
-                <div data-role="collapsible">
+                 <div data-role="collapsible">
                     <h3>
-                        Defect 3 <span class="ui-li-count">4</span></h3>
+                        Warpage Line <span class="ui-li-count">1</span></h3>
                     <ul data-role="listview" data-inset="false" data-count-theme="b">
-                        <li>Defect 1<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 2<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 3<span class="ui-li-count">1:20</span></li>
-                        <li>Defect 4<span class="ui-li-count">1:20</span></li>
-                    </ul>
+                        <li><i class="fa fa-user"></i> Amit K. <i class="fa fa-clock-o"></i> 09/03/2014 11:33:02<span class="ui-li-count"><i class="fa fa-film"></i> 448.3 m</span></li>
+                        
+                  </ul>
                 </div>
             </div>
         </div>

@@ -207,8 +207,17 @@
     text-shadow: 1px 1px 1px #000;
 }
 
-
 /* Welcome Page */
+#WelcomePage .ui-li-divider
+{
+    font-size: 20px;
+    background: #393939;
+}
+#WelcomePage .detail li
+{
+     font-size: 20px;
+}
+/* Dashboard Page */
 #Dashboard .ui-header
 {
       background: #515151;
